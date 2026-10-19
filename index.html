@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Queensy Shopping Mall</title>
+  <!-- Pi Network SDK -->
+  <script src="https://sdk.minepi.com/pi-sdk.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="app-header">
+    <h1>Queensy</h1>
+    <p class="tagline">Multi-Vendor Hub for Agri-Hub Foods, Autos & Retail</p>
+  </header>
+
+  <main class="container">
+    <section class="user-card" id="user-info">
+      <button id="auth-btn" onclick="authenticatePi()">Connect Pi Wallet</button>
+      <p id="user-status" class="status-text"></p>
+    </section>
+
+    <section class="categories">
+      <h2>Explore Categories</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>🌾 Agri-Hub Foods</h3>
+          <p>Fresh agricultural produce & groceries</p>
+        </div>
+        <div class="card">
+          <h3>🚗 Auto Sales</h3>
+          <p>Vehicles, parts & automotive services</p>
+        </div>
+        <div class="card">
+          <h3>🛍️ Retail & Tools</h3>
+          <p>Everyday essentials, hardware & tools</p>
+        </div>
+        <div class="card">
+          <h3>🍽️ Dining & Services</h3>
+          <p>Local dining, meals & lifestyle services</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Queensy. Powered by Pi Network.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
